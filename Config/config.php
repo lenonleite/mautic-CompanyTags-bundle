@@ -69,10 +69,10 @@ return [
                 'path'       => '/companies/{page}',
                 'controller' => 'MauticPlugin\LeuchtfeuerCompanyTagsBundle\Controller\CompanyController::indexAction',
             ],
-            'mautic_company_action' => [
-                'path'       => '/companies/{objectAction}/{objectId}',
-                'controller' => 'MauticPlugin\LeuchtfeuerCompanyTagsBundle\Controller\CompanyController::executeAction',
-            ],
+//            'mautic_company_action' => [
+//                'path'       => '/companies/{objectAction}/{objectId}',
+//                'controller' => 'MauticPlugin\LeuchtfeuerCompanyTagsBundle\Controller\CompanyController::executeAction',
+//            ],
         ],
         'api'  => [
             'mautic_api_companytags' => [
