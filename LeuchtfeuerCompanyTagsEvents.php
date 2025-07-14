@@ -12,7 +12,14 @@ class LeuchtfeuerCompanyTagsEvents
 
     public const COMPANY_TAG_UPDATE = 'mautic.compaigntags.company_tag_update';
 
-    public const COMPANY_POS_SAVE = 'mautic.compaigntags.company_pos_save';
+//    public const COMPANYTAG_POS_SAVE = 'mautic.compaigntags.company_pos_save';
+    public const COMPANYTAG_PRE_SAVE = 'mautic.compaigntags.company_pre_save';
+    public const COMPANYTAG_POS_DELETE = 'mautic.compaigntags.company_pos_delete';
+    public const COMPANYTAG_PRE_DELETE = 'mautic.compaigntags.company_pre_delete';
+//    public const COMPANYTAG_POS_UPDATE = 'mautic.compaigntags.company_pos_update';
+    public const COMPANYTAG_COMPANY_POS_UPDATE = 'mautic.compaigntags.company_company_pos_update';
 
     public const COMPANY_POS_UPDATE = 'mautic.compaigntags.company_pos_update';
+
+    public const COMPANY_POS_SAVE = 'mautic.compaigntags.company_pos_save';
 }
